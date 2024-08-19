@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="lab3.2.xsd">
+    <book isbn="978-0134685991">
+        <name>
+            <firstName>James</firstName>
+            <middleName>A.</middleName>
+            <lastName>Gosling</lastName>
+        </name>
+        <author>James Gosling</author>
+        <pageno>400</pageno>
+        <price>55.00</price>
+    </book>
+    <book isbn="978-0132350884">
+        <name>
+            <firstName>Robert</firstName>
+            <middleName>C.</middleName>
+            <lastName>Martin</lastName>
+        </name>
+        <author>Robert C. Martin</author>
+        <pageno>450</pageno>
+        <price>1100.00</price> <!-- This will be invalid as it's over 1000 -->
+    </book>
+</books>
