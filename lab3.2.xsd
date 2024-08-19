@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Definition of the books element -->
+    <xs:element name="books">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Definition of multiple book elements -->
+                <xs:element name="book" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Name element with first, middle, and last name -->
+                            <xs:element name="name">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="firstName" type="xs:string"/>
+                                        <xs:element name="middleName" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="lastName" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <!-- Author element can have multiple authors -->
+                            <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
+                            <xs:element name="pageno" type="xs:positiveInteger"/>
+                            <xs:element name="price" type="xs:decimal"/>
+                        </xs:sequence>
+                        <xs:attribute name="isbn" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
