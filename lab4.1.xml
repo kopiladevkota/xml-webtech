@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lab4.2.xsl"?>
+<students>
+    <student>
+        <name>Kopila</name>
+        <address>Kathmandu</address>
+        <rollno>5001</rollno>
+    </student>
+    <student>
+        <name>Kabita</name>
+        <address>Pokhara</address>
+        <rollno>5002</rollno>
+    </student>
+</students>
