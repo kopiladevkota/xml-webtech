@@ -1,0 +1,16 @@
+﻿<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<company>
+  <employee>
+    <fullname>John Nash</fullname>
+    <designation>Senoir Developer</designation>
+    <address>KTM</address>
+  </employee>
+  <employee>
+    <fullname>Ray Morton</fullname>
+    <designation>Manager</designation>
+  </employee>
+  <employee>
+    <fullname>Ray Joh</fullname>
+    <designation>Manager</designation>
+  </employee>
+</company>
