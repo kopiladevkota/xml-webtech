@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<songs>
+    <song>
+        <name>Shape of You</name>
+        <singer>Ed Sheeran</singer>
+        <composer>Ed Sheeran</composer>
+        <length>3:53</length>
+    </song>
+    <song>
+        <name>Blinding Lights</name>
+        <singer>The Weeknd</singer>
+        <composer>The Weeknd, Max Martin</composer>
+        <length>3:20</length>
+    </song>
+    <song>
+        <name>Love Yourself</name>
+        <singer>Justin Bieber</singer>
+        <composer>Ed Sheeran, Benjamin Levin, Justin Bieber</composer>
+        <length>3:53</length>
+    </song>
+    <song>
+        <name>Blank Space</name>
+        <singer>Taylor Swift</singer>
+        <composer>Taylor Swift, Max Martin, Shellback</composer>
+        <length>3:51</length>
+    </song>
+</songs>
