@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="lab7.css"?>
+<contacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="lab7.xsd">
+    <contact>
+        <name>James Smith</name>
+        <address>101 South Street</address>
+        <city>Halifax</city>
+        <email>james@dal.ca</email>
+        <phone>4940001</phone>
+    </contact>
+    <contact>
+        <name>Tom White</name>
+        <address>202 Victoria Road</address>
+        <city>Dartmouth</city>
+        <email>tom@dal.ca</email>
+        <phone>4940002</phone>
+    </contact>
+</contacts>
