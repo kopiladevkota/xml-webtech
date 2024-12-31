@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:noNamespaceSchemaLocation="kopilalab2.2.xsd">
+           xsi:noNamespaceSchemaLocation="employeedetails.xsd">
     <employee>
         <name>John Doe</name>
         <address>123 Elm Street, Springfield, IL</address>
