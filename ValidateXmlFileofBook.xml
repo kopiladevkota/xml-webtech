@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:noNamespaceSchemaLocation="lab3.2.xsd">
+           xsi:noNamespaceSchemaLocation="ValidateXmlFileofBook.xsd">
     <book isbn="978-0134685991">
         <name>
             <firstName>James</firstName>
